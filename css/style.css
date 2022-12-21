@@ -423,8 +423,12 @@ textarea {
 
 .projects__row-img {
   width: 100%;
-  display: block;
+  display: flex;
   object-fit: cover;
+  /* margin: auto; */
+  justify-content: center;
+  /* align-items: center */
+  margin-top: 20%;
 }
 
 .projects__row-content {
